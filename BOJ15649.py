@@ -33,8 +33,6 @@ def func(k):
     #채워질 숫자는 1부터 n이므로, 돌아가면서 isUsed = False를 찾는다
     for i in range(1, n+1): 
         if not isUsed[i]:
-
-
             '''
             여기부분 k, i index 살 생각해보기
             '''
